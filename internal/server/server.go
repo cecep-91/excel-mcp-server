@@ -4,7 +4,7 @@ import (
 	"runtime"
 
 	"github.com/mark3labs/mcp-go/server"
-	"github.com/negokaz/excel-mcp-server/internal/tools"
+	"github.com/cecep-91/excel-mcp-server/internal/tools"
 )
 
 type ExcelServer struct {
@@ -30,5 +30,6 @@ func New(version string) *ExcelServer {
 }
 
 func (s *ExcelServer) Start() error {
-	return server.ServeStdio(s.server)
+	sseServer := server.NewSSEServer(s.server)
+	return sseServer.Start(":8080")
 }

@@ -1,6 +1,6 @@
 # Excel MCP Server
 
-<img src="https://github.com/negokaz/excel-mcp-server/blob/main/docs/img/icon-800.png?raw=true" width="128">
+<img src="https://github.com/cecep-91/excel-mcp-server/blob/main/docs/img/icon-800.png?raw=true" width="128">
 
 <a href="https://glama.ai/mcp/servers/@negokaz/excel-mcp-server">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@negokaz/excel-mcp-server/badge" alt="Excel Server MCP server" />

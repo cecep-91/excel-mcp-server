@@ -1,4 +1,4 @@
-module github.com/negokaz/excel-mcp-server
+module github.com/cecep-91/excel-mcp-server
 
 go 1.23.0
 

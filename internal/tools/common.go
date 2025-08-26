@@ -12,7 +12,7 @@ import (
 	"github.com/goccy/go-yaml"
 	"github.com/xuri/excelize/v2"
 
-	"github.com/negokaz/excel-mcp-server/internal/excel"
+	"github.com/cecep-91/excel-mcp-server/internal/excel"
 
 	z "github.com/Oudwins/zog"
 )
