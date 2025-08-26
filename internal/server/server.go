@@ -17,15 +17,9 @@ func New(version string) *ExcelServer {
 		"excel-mcp-server",
 		version,
 	)
-	tools.AddExcelDescribeSheetsTool(s.server)
-	tools.AddExcelReadSheetTool(s.server)
 	if runtime.GOOS == "windows" {
 		tools.AddExcelScreenCaptureTool(s.server)
 	}
-	tools.AddExcelWriteToSheetTool(s.server)
-	tools.AddExcelCreateTableTool(s.server)
-	tools.AddExcelCopySheetTool(s.server)
-	tools.AddExcelFormatRangeTool(s.server)
 	return s
 }
 
